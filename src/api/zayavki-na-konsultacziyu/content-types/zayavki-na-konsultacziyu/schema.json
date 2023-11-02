@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zayavki_na_konsultacziyus",
+  "info": {
+    "singularName": "zayavki-na-konsultacziyu",
+    "pluralName": "zayavki-na-konsultacziyus",
+    "displayName": "Заявки на консультацію",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Added",
+        "Reviewed"
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "storinka_oplata_ta_vidshkoduvannyas",
+  "info": {
+    "singularName": "storinka-oplata-ta-vidshkoduvannya",
+    "pluralName": "storinka-oplata-ta-vidshkoduvannyas",
+    "displayName": "Допомога та підтримка",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "firstText": {
+      "type": "text"
+    },
+    "listText1": {
+      "type": "string"
+    },
+    "listText2": {
+      "type": "string"
+    },
+    "listText3": {
+      "type": "string"
+    },
+    "AccordeonTitle1": {
+      "type": "string"
+    },
+    "AccordeonTitle2": {
+      "type": "string"
+    },
+    "AccordeonTitle3": {
+      "type": "string"
+    },
+    "AccordeonTitle4": {
+      "type": "string"
+    },
+    "AccordeonTitle5": {
+      "type": "string"
+    },
+    "AccordeonBody1": {
+      "type": "text"
+    },
+    "AccordeonBody2": {
+      "type": "text"
+    },
+    "AccordeonBody3": {
+      "type": "text"
+    },
+    "AccordeonBody4": {
+      "type": "text"
+    },
+    "AccordeonBody5": {
+      "type": "text"
+    }
+  }
+}

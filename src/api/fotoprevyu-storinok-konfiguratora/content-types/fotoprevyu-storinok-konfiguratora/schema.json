@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "fotoprevyu_storinok_konfiguratoras",
+  "info": {
+    "singularName": "fotoprevyu-storinok-konfiguratora",
+    "pluralName": "fotoprevyu-storinok-konfiguratoras",
+    "displayName": "Фотопревью сторінок  конфігуратора",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hook": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

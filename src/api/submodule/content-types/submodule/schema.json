@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submodules",
+  "info": {
+    "singularName": "submodule",
+    "pluralName": "submodules",
+    "displayName": "Підмодулі",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "hooks": {
+      "type": "string",
+      "required": true
+    },
+    "hooksImg": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::module.module",
+      "mappedBy": "submodules"
+    },
+    "titleForSelectedType": {
+      "type": "string"
+    }
+  }
+}

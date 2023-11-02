@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "configuration_colors",
+  "info": {
+    "singularName": "configuration-color",
+    "pluralName": "configuration-colors",
+    "displayName": "Кольори для конфігурацій",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modules",
+  "info": {
+    "singularName": "module",
+    "pluralName": "modules",
+    "displayName": "Модулі ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "initialAmount": {
+      "type": "integer"
+    },
+    "characteristics": {
+      "type": "text"
+    },
+    "imgCard": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imgGallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "modules"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "submodules": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::submodule.submodule",
+      "inversedBy": "modules"
+    }
+  }
+}

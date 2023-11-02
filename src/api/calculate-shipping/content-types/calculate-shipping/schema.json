@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calculate_shippings",
+  "info": {
+    "singularName": "calculate-shipping",
+    "pluralName": "calculate-shippings",
+    "displayName": "Розрахувати вартість доставки(заявки)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "zipCode": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "text"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Added",
+        "Reviewed"
+      ]
+    }
+  }
+}
